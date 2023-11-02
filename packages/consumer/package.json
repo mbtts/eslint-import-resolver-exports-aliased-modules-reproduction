@@ -1,0 +1,17 @@
+{
+  "name": "consumer",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-import-resolver-exports": "1.0.0-beta.5",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "glob": "npm:globby",
+    "@scoped/dependency": "workspace:^",
+    "aliased-dependency": "workspace:@scoped/dependency@^"
+  }
+}
